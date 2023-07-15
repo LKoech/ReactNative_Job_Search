@@ -5,6 +5,9 @@
       "bundler": "metro"
     },
     "name": "ReactNative_Job_Search",
-    "slug": "ReactNative_Job_Search"
+    "slug": "ReactNative_Job_Search",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }

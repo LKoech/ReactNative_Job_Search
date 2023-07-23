@@ -1,7 +1,9 @@
 import { useState,useEffect } from "react";
 import axios from "axios";
+require('dotenv').config();
 
-const USER_KEY = 'a7277c2f60msh7fe4fe75e19998cp1b609ajsn5ec9dc12dff8';
+const apiKey = process.env.USER_KEY;
+
 const useFetch = (endpoint, query) => {
     const [data, setData] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
@@ -11,7 +13,7 @@ const useFetch = (endpoint, query) => {
         method: 'GET',
         url: `https://jsearch.p.rapidapi.com/${endpoint}`,
         headers: {
-            'X-RapidAPI-Key': USER_KEY,
+            'X-RapidAPI-Key': apiKey,
             'X-RapidAPI-Host': 'jsearch.p.rapidapi.com'
         },
         params: {...query},

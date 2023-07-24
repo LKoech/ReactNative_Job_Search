@@ -1,7 +1,7 @@
 #  React Native Job Search App
-This is a simple job search app built purely with React Native.
+This is a simple job search app built purely with React Native incorporating APIs for functionality.
 
-The user simply searches for any type of job using a key word and it returns a list of job application links with a description.
+The user simply searches for any type of job using a key word and it returns a list of job application links with a description.This is a multiplatform application it can work in Android, IoS and on any Web browser.
 
 ## Architechture
 This is a simple web app so its high level architechure looks as the image below;
@@ -9,13 +9,10 @@ This is a simple web app so its high level architechure looks as the image below
 ![Alt text](assets/images/Arch.png)
 
 
-## Image snipets of the app
+## Image and Video snipets of the app
 
 ![Alt text](assets/images/App1.png)
 
-![Alt text](assets/images/App2.png)
-
-![Alt text](assets/images/app3.png)
 
 This is a short video of how the application works;
 

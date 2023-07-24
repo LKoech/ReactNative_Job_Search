@@ -3,6 +3,10 @@ This is a simple job search app built purely with React Native incorporating API
 
 The user simply searches for any type of job using a key word and it returns a list of job application links with a description.This is a multiplatform application it can work in Android, IoS and on any Web browser.
 
+##Note
+I used an API from [RapidApis website](https://rapidapi.com/hub) and the specific API is called [JSearch API](https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch/)  you can create an account and utilise the API to generate your own keys for this project to work.
+
+
 ## Architechture
 This is a simple web app so its high level architechure looks as the image below;
 

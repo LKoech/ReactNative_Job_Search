@@ -6,10 +6,20 @@ The user simply searches for any type of job using a key word and it returns a l
 ## Architechture
 This is a simple web app so its high level architechure looks as the image below;
 
+![Alt text](assets/images/Arch.png)
 
 
 ## Image snipets of the app
 
+![Alt text](assets/images/App1.png)
+
+![Alt text](assets/images/App2.png)
+
+![Alt text](assets/images/app3.png)
+
+This is a short video of how the application works;
+
+![Alt text](assets/images/Screen_Record_React.gif)
 
 ## Future Improvements
 Improvements that should be made include;
